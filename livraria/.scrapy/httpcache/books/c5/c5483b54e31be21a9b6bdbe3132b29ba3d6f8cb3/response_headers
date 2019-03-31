@@ -1,0 +1,14 @@
+Server: Sucuri/Cloudproxy
+Date: Sun, 24 Feb 2019 13:39:42 GMT
+Content-Type: text/plain; charset=UTF-8
+X-Sucuri-Id: 14005
+X-Xss-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests;
+Last-Modified: Fri, 25 May 2018 14:49:00 GMT
+Etag: "337-56d08de484f00"
+Expires: Thu, 31 Dec 2037 23:55:55 GMT
+Cache-Control: max-age=315360000
+X-Sucuri-Cache: HIT
+Accept-Ranges: bytes

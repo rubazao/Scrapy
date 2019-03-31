@@ -1,0 +1,19 @@
+User-agent: *
+
+Disallow: /admin/
+Disallow: /static/
+Disallow: /system/
+Disallow: /*&limit
+Disallow: /*&sort
+Disallow: /*?route=checkout/
+Disallow: /*?route=account/
+Disallow: /index.php?route=product/search
+
+Sitemap: https://videeditorial.com.br/index.php?route=feed/google_sitemap
+Sitemap: https://ecclesiae.com.br/index.php?route=feed/google_sitemap
+Sitemap: https://livraria.nandomoura.com/index.php?route=feed/google_sitemap
+Sitemap: https://livrariadobernardo.com/index.php?route=feed/google_sitemap
+Sitemap: https://livraria.tercalivre.com.br/index.php?route=feed/google_sitemap
+Sitemap: https://livraria.mvb.org.br/index.php?route=feed/google_sitemap
+Sitemap: https://livraria.seminariodefilosofia.org/index.php?route=feed/google_sitemap
+Sitemap: https://livraria.deiaetiba.com.br/index.php?route=feed/google_sitemap

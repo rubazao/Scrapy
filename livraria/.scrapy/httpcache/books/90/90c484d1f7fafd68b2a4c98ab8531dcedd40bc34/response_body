@@ -1,0 +1,1656 @@
+<!DOCTYPE html><html dir="ltr" lang="pt-br"><head>
+	<meta charset="UTF-8">
+	<title>Livraria do Seminário</title>
+	<base href="https://livraria.seminariodefilosofia.org/">
+				
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Serif%3A400,400italic,700%7CNoto+Sans%3A400,700">
+	<link rel="stylesheet" type="text/css" href="https://livraria.seminariodefilosofia.org/catalog/view/theme/livrariasem-template/stylesheet/main.css?1">
+
+		<link rel="stylesheet" type="text/css" href="https://livraria.seminariodefilosofia.org/catalog/view/theme/default/stylesheet/nwa.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="https://livraria.seminariodefilosofia.org/catalog/view/theme/default/stylesheet/slideshow.css" media="screen">
+	
+	<script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/javascript/jquery/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/javascript/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://livraria.seminariodefilosofia.org/catalog/view/javascript/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css">
+	<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/theme/preface-template/javascript/common.js?1"></script>
+	<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/theme/preface-template/javascript/jquery.pajinate.min.js"></script>
+	<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/theme/preface-template/javascript/jquery.mask.js"></script>
+	<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/theme/preface-template/javascript/masonry.js"></script>
+	
+		<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/javascript/nwa.min.js"></script>
+		<script type="text/javascript" src="https://livraria.seminariodefilosofia.org/catalog/view/javascript/jquery/nivo-slider/jquery.nivo.slider.pack.js"></script>
+		<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-4085593-7', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+	<!--[if IE 7]>
+	<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ie7.css" />
+	<![endif]-->
+	<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="catalog/view/theme/default/stylesheet/ie6.css" />
+	<script type="text/javascript" src="catalog/view/javascript/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">
+		DD_belatedPNG.fix('#logo img');
+	</script>
+	<![endif]-->
+	<script type="text/javascript">
+		$(window).scroll( function(){
+			if ($(window).scrollTop() > 130) {
+				$('#login-info').addClass('fixed');
+			} else {
+				$('#login-info').removeClass('fixed');
+			}
+		});
+	</script>
+		
+                <script src="https://assets.pagar.me/js/pagarme.min.js"></script>
+            
+<link rel="stylesheet" type="text/css" href="https://livraria.seminariodefilosofia.org/catalog/view/javascript/jquery/nwa_colorbox/colorbox.css" media="screen"></head>
+
+<body>
+	<div id="container">
+		<div id="header">
+			
+			
+
+			<div id="login-info">
+				<div class="centered-content">
+					<div class="little_man"></div>
+					<span class="user ">
+						Seja bem-vindo! <a href="https://livraria.seminariodefilosofia.org/index.php?route=account/login">LOGIN</a> ou <a href="https://livraria.seminariodefilosofia.org/index.php?route=account/register">CRIAR CONTA</a>.					</span>
+					<div class="fixed_menu">
+						<a class="" href="https://livraria.seminariodefilosofia.org/index.php?route=common/home">Vitrine</a>
+						<a class="" href="index.php?route=product/author">Autores</a>
+						<a class="" href="index.php?route=product/manufacturer">Editoras</a>
+						<!-- ALTERACAO VINICIUS -->
+						<a class="" href="https://livraria.seminariodefilosofia.org/novidades">Novidades</a>
+						<!-- ALTERACAO VINICIUS - FIM -->
+					</div>
+					<div id="cart">
+	<span class="icon" title="Carrinho"></span>
+	<a class="cart-link" href=""><span id="cart-total">0 item(s) - R$ 0,00</span></a>
+	<div class="content">
+		<div class="mini-cart-info"><span class="icon inside" title="Carrinho"></span><h4>Carrinho de compras</h4><div class="float-break"></div><p>Você ainda não adicionou nenhum item ao carrinho</p></div>			</div>
+</div>
+				</div>
+			</div>
+
+
+			<div class="centered-content">
+				<div id="logo">
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=common/home" title="Livraria do Seminário">
+						<span class="logo-image"></span>
+					</a>
+				</div>
+
+				<div id="textologo">
+						<div id="textologo1">LIVRARIA VIRTUAL</div>
+						<div id="textologo2">Seminário de Filosofia</div>
+						<div id="textologo3">Sapientiam Autem Non Vincit Malitia</div>
+				</div>
+				
+				<div id="searchANDmenu">
+					<div id="menu">
+						<a class="" href="https://livraria.seminariodefilosofia.org/index.php?route=common/home">Vitrine</a>
+						<a class="" href="index.php?route=product/author">Autores</a>
+						<a class="" href="index.php?route=product/manufacturer">Editoras</a>
+						
+						<!-- ALTERACAO VINICIUS -->
+						<a class="" href="https://livraria.seminariodefilosofia.org/novidades">Novidades</a>
+						<!-- ALTERACAO VINICIUS - FIM -->
+						
+						<a class="facebook" target="_blank" href="https://www.facebook.com/pages/Seminário-de-Filosofia-Olavo-de-Carvalho/187674734587666?fref=ts&amp;ref=br_tf"></a>
+					</div>
+
+					<div id="search">
+						<input type="text" name="search" placeholder="Digite aqui para buscar algum produto..." value="">
+					</div>
+				</div>
+
+				<div class="float-break"></div>
+				<div id="notification-container">
+					<div id="notification"></div>
+				</div>
+			</div>
+
+			<!--
+				<div class="links"><a href="https://livraria.seminariodefilosofia.org/index.php?route=common/home">Página Inicial</a>
+				<a href="https://livraria.seminariodefilosofia.org/index.php?route=account/wishlist" id="wishlist-total">Lista de desejos (0)</a>
+				<a href="https://livraria.seminariodefilosofia.org/index.php?route=account/account">Minha conta</a>
+				<a href="https://livraria.seminariodefilosofia.org/index.php?route=checkout/cart">Carrinho de compras</a>
+				<a href="https://livraria.seminariodefilosofia.org/index.php?route=checkout/checkout">Finalizar pedido</a>
+			</div>
+			-->
+		</div>
+		
+		<div class="centered-content home banner">
+	    <div id="nwa_list_container">
+        <div class="box" id="nwa_list">
+            <div class="box-content">
+                <b id="nwa_list_box_title">Sem estoque</b>
+                <span id="nwa_list_box_description">Informe o seu e-mail e o notificaremos assim que o produto chegar em nosso estoque:</span>
+                                   
+                 
+                  
+                <input type="text" name="notify_email" id="nwa_list_email" value="">
+                <br>
+                <br>
+                <br>
+		  
+                <input type="hidden" name="notify_product_id" id="nwa_list_product_id" value="">
+                <a class="link-like-button" id="nwa_list_register">
+                    <span>Enviar</span>
+                </a>
+                <a class="link-like-button without-margin" id="nwa_list_close">
+                    <span>Cancelar</span>
+                </a>
+                <div id="nwa_list_msg"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(function() { 
+                                     
+            $('input[onclick*="addToCart"],a[onclick*="addToCart"]').nwaList({
+                title:'Out of stock!',
+                text:'Avise-me!',
+                out_stock_list:[56,61,62,68,80,169,171,197,237,254,281,445,448,457,458,465,475,499,503,540,557,628,656,673,711,737,770,778,785,791,871,872,897,918,994,1004,1009,1012,1018,1029,1031,1072,1080,1083,1105,1107,1114,1115,1118,1122,1129,1130,1136,1144,1151,1156,1158,1161,1167,1170,1173,1174,1176,1187,1189,1190,1193,1197,1201,1207,1208,1214,1217,1224,1225,1228,1235,1241,1242,1243,1252,1254,1256,1258,1259,1270,1271,1272,1278,1279,1284,1289,1291,1294,1295,1303,1307,1308,1309,1310,1317,1320,1336,1343,1362,1366,1390,1397,1422,1440,1457,1460,1469,1474,1488,1496,1498,1499,1504,1508,1512,1515,1516,1517,1529,1572,1575,1576,1809,1830,1930,1993,2020,2026,2033,2036,2061,2068,2072,2081,2192,2293,2303,2312,2372,2433,2511,2519,2542,2564,2571,2573,2578,2591,2592,2593,2610,2612,2613,2614,2615,2619,2641,2679,2687,2688,2711,2712,2717,2720,2737,2755,2756,2758,2762,2768,2773,2775,2793,2831,2837,2871,2891,2919,2946,2951,2962,2965,2975,3004,3014,3017,3020,3024,3027,3034,3039,3043,3091,3099,3166,3174,3247,3252,3259,3290,3304,3308,3314,3391,3397,3411,3417,3428,3451,3454,3539,3566,3605,3647,3664,3708,3736,3742,3746,3758,3773,3774,3775,3776,3777,3778,3824,3827,3829,3830,3832,3834,3835,3839,3840,3878,3888,3895,3909,3910,3985,4030,4031,4049,4051,4067,4092,4096,4105,4106,4118,4175,4244,4245,4258,4290,4309,4321,4330,4351,4353,4355,4356,4357,4379,4406,4407,4408,4411,4428,4438,4491,4492,4493,4494,4504,4507,4512,4523,4566,4567,4568,4571,4594,4601,4614,4618,4623,4631,4638,4663,4664,4668,4769,4791,4824,4855,4858,4940,4976,5071,5076,5077,5078,5107,5120,5172,5183,5190,5201,5221,5225,5226,5259,5286,5292,5294,5326,5328,5332,5376,5400,5403,5404,5405,5413,5418,5426,5448,5472,5476,5562,5591,5670,5671,5672,5702,5715,5773,5780,5781,5782,5785,5786,5788,5791,5792,5793,5796,5797,5800,5802,5803,5805,5806,5809,5812,5816,5817,5818,5821,5935,5951,6013,6023,6042,6087,6143,6151,6179,6183,6200,6217,6219,6223,6225,6238,6251,6259,6262,6271,6279,6293,6296,6311,6313,6324,6327,6343,6345,6355,6432,6433,6446,6448,6452,6454,6458,6459,6478,6480,6496,6500,6501,6517,6525,6526,6531,6535,6548,6552,6553,6555,6565,6567,6569,6595,6602,6604,6617,6619,6624,6649,6661,6669,6670,6686,6689,6694,6696,6702,6708,6732,6743,6788,6791,6792,6793,6801,6805,6808,6814,6823,6860,6861,6863,6868,6870,6873,6874,6881,6887,6888,6906,6911,6919,6947,6950,6954,6955,6956,6965,6970,6971,6972,6973,6984,7001,7008,7015,7022,7031,7032,7033,7042,7043,7051,7063,7065,7067,7068,7071,7074,7075,7076,7078,7080,7081,7082,7083,7084,7091,7093,7096,7097,7098,7099,7100,7101,7102,7103,7104,7105,7106,7107,7108,7109,7110,7111,7136,7167,7168],
+                gray_style:true,
+                show_mode: 4            })         
+        });
+                            
+    </script>
+	
+
+<div class="slideshow">
+  <div id="slideshow0" class="nivoSlider" style="width: 960px; height: 252px; position: relative; background-image: url('https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/quixote_(site)-960x252.jpg'); background-position: initial initial; background-repeat: no-repeat no-repeat;">
+            <a href="/meditacoes-do-quixote" class="nivo-imageLink" style="display: block;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/quixote_(site)-960x252.jpg" alt="7799 - Meditações" style="display: none;"></a>
+                <a href="/o-metodo-pedagogico-dos-jesuitas" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/O_Método_960x252-site-960x252.jpg" alt="7800 - O Método Pedagógico" style="display: none;"></a>
+                <a href="/feminismo-perversao-e-subversao" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/Feminismo_(site)-960x252.jpg" alt="7801 - Feminismo" style="display: none;"></a>
+                <a href="/a-vida-intelectual-kirion" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/A_Vida_Intelectual_960x252-site-960x252.jpg" alt="7802 - a vida intelectual" style="display: none;"></a>
+                <a href="/o-progresso-da-ignorancia " class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Ignorância_(site)-960x252.jpg" alt="7803 - o progresso da ignorância" style="display: none;"></a>
+                <a href="/musica-inteligencia-e-personalidade" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Música_(site)-960x252.jpg" alt="7804 - Música, inteligência e personalidade" style="display: none;"></a>
+                <a href="/livre-para-nascer" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Livre_para_nascer_(site)-960x252.jpg" alt="7806 - Livre para nascer" style="display: none;"></a>
+                <a href="/didascalicon-sobre-a-arte-de-ler" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/Didascalicon-960x252.jpg" alt="7807 - Didascálicon" style="display: none;"></a>
+                <a href="/de-volta-ao-caminho-da-servidão" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Servidão_(site)-960x252.jpg" alt="7808 - de volta ao caminho da servidão " style="display: none;"></a>
+                <a href="/a-educacao-da-vontade-kirion" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/D-_A_educação_da_vontade_960x252-site-960x252.jpg" alt="7809 - Educação da Vontade" style="display: none;"></a>
+                <a href="/como-as-corporacoes-joel-spring" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Como_as_corporacoes-960x252.png" alt="7810" style="display: none;"></a>
+                <a href="/politizacao-da-biblia" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Politização_da_Bíblia(site)-960x252.jpg" alt="7811" style="display: none;"></a>
+                <a href="/a-educacao-do-homem-consciente-kirion" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/A_Educação_960x252-site-960x252.jpg" alt="7812 - Lubienska" style="display: none;"></a>
+                <a href="/manual-politicamente-incorreto-do-catolicismo" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Católico_Incorreto_(site)-960x252.jpg" alt="7813" style="display: none;"></a>
+                <a href="/o-que-voce-precisa-saber-sobre-aborto" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Aborto(site)-960x252.jpg" alt="7814" style="display: none;"></a>
+                <a href="/inseguranca-publica-diogenes-lucca" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/INsegurança_(site)-960x252.jpg" alt="7815" style="display: none;"></a>
+                <a href="/Historia_da_Educacao_no_Seculo_XVII" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/História_da_Educação_SécXVII_960x252-site-960x252.jpg" alt="7816" style="display: none;"></a>
+                <a href="/o-imbecil-coletivo" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-MVB/O Imbecil Coletivo Site Padrão1-960x252.png" alt="7816" style="display: none;"></a>
+                <a href="/Propedeutica_da_Filosofia" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Propedêutica_da_Filosofia_(site)-960x252.jpg" alt="7818" style="display: none;"></a>
+                <a href="/Os_4_temperamentos_na_educacao_dos_filhos" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/Os_4_Temperamentos(site)-960x252.jpg" alt="7819" style="display: none;"></a>
+                <a href="/ideias-e-crencas" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-TercaLivre/Ideias_e_Crencas_(site)-960x252.jpg" alt="7820" style="display: none;"></a>
+                <a href="/licoes-de-abismo-45" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/Lições_de_Abismo_(site)-960x252.jpg" alt="7821" style="display: none;"></a>
+                <a href="/historia-da-educacao-no-renascimento" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/História_da_Educação_Renascimento_960x252-site-960x252.jpg" alt="7822 - História da Ed. Renascimento" style="display: none;"></a>
+                <a href="/catena-aurea---exposicao-continua-sobre-os-evangelhos---vol-1:-mateus" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Catena_Aurea_(site)-960x252.jpg" alt="7823" style="display: none;"></a>
+                <a href="/origem-e-epilogo-da-filosofia" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-TercaLivre/Origem_Gasset-960x252(site)-960x252.jpg" alt="7828" style="display: none;"></a>
+                <a href="/o-trabalho-intelectual" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-TercaLivre/O_Trabalho_Intelectual_1(site)-960x252.jpg" alt="7829" style="display: none;"></a>
+                <a href="/o-comunista-exposto" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-NandoMoura/O_Comunista_Exposto_(site)-960x252.jpg" alt="7831 - O Comunista Exposot" style="display: none;"></a>
+                <a href="https://livraria.seminariodefilosofia.org/compendio-de-teologia-ascetica-e-mistica-ecclesiae" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Compêndio_de_Teologia_Ascética_e_-Mística_(site)-960x252.jpg" alt="7834 - Compêndio Tanquerey" style="display: none;"></a>
+                <a href="/manual-politicamente-incorreto-do-isla-e-das-cruzadas" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners Livraria do Bernardo/Manual_Politicamente_Incorreto-960x252(site)-960x252-960x252.jpg" alt="7837 - MPI Islã" style="display: none;"></a>
+                <a href="/meias-verdades,-velhas-mentiras---estrategia-comunista-de-embuste-e-desinformacao" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-NandoMoura/Meias_Verdades_Novas_Mentiras_(site)-960x252.jpg" alt="7840" style="display: none;"></a>
+                <a href="/1964-o-elo-perdido" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-VIDE/1964_(site)-960x252.jpg" alt="7842" style="display: none;"></a>
+                <a href="/suma-contra-os-gentios" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Suma_contra_os_gentios_(site)-960x252.jpg" alt="7850" style="display: none;"></a>
+                <a href="/o-jardim-das-aflicoes-vide-editorial" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Seminario/jardim-site-banner-960x252.png" alt="7858" style="display: none;"></a>
+                <a href="/suma-teologica-ecclesiae" class="nivo-imageLink" style="display: none;"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Banners-Ecclesiae/Suma_site_1-960x252.png" alt="7876 - Suma" style="display: none;"></a>
+          <div class="nivo-caption" style="opacity: 0;"><p></p></div><div class="nivo-directionNav" style="display: none;"><a class="nivo-prevNav">Prev</a><a class="nivo-nextNav">Next</a></div><div class="nivo-controlNav"><a class="nivo-control active" rel="0">1</a><a class="nivo-control" rel="1">2</a><a class="nivo-control" rel="2">3</a><a class="nivo-control" rel="3">4</a><a class="nivo-control" rel="4">5</a><a class="nivo-control" rel="5">6</a><a class="nivo-control" rel="6">7</a><a class="nivo-control" rel="7">8</a><a class="nivo-control" rel="8">9</a><a class="nivo-control" rel="9">10</a><a class="nivo-control" rel="10">11</a><a class="nivo-control" rel="11">12</a><a class="nivo-control" rel="12">13</a><a class="nivo-control" rel="13">14</a><a class="nivo-control" rel="14">15</a><a class="nivo-control" rel="15">16</a><a class="nivo-control" rel="16">17</a><a class="nivo-control" rel="17">18</a><a class="nivo-control" rel="18">19</a><a class="nivo-control" rel="19">20</a><a class="nivo-control" rel="20">21</a><a class="nivo-control" rel="21">22</a><a class="nivo-control" rel="22">23</a><a class="nivo-control" rel="23">24</a><a class="nivo-control" rel="24">25</a><a class="nivo-control" rel="25">26</a><a class="nivo-control" rel="26">27</a><a class="nivo-control" rel="27">28</a><a class="nivo-control" rel="28">29</a><a class="nivo-control" rel="29">30</a><a class="nivo-control" rel="30">31</a><a class="nivo-control" rel="31">32</a><a class="nivo-control" rel="32">33</a><a class="nivo-control" rel="33">34</a></div></div>
+</div>
+<script type="text/javascript"><!--
+	$(document).ready(function() {
+		$('#slideshow0').nivoSlider({
+			animSpeed: 500,                 // Slide transition speed
+			pauseTime: 10000,
+			controlNavThumbs: false
+		});
+	});
+</script>
+</div>
+<div class="divider"></div>
+<div class="centered-content home">
+	<div id="column-left">
+    <div class="box">
+  <div class="box-heading">Categorias</div>
+  <div class="box-content">
+    <ul class="box-category">
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=721">Ofertas Livraria do Seminário</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=721_726">Menos de R$ 10,00</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=721_722">Até 25%</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=721_723">25-40%</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=721_725">KITS ESPECIAIS</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=139">OLAVO DE CARVALHO</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50">Administração</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_64">Empreendedorismo</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_103">Estratégia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_100">Ferramentas de Gestão</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_101">Gestão de Pessoas e RH</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_51">Liderança</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=50_102">Logística</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5">Artes</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_131">Arquitetura</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_93">Arte Oriental</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_126">Arte Sacra</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_77">Cinema</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_114">Culinária</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_130">Música</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_124">Oratória e Retórica</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_81">Sobre a Arte</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_45">Teatro</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=5_6">Teatro Grego</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=4">Biblioteconomia</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32">Biografias</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_40">Autobiografias e Testemunhos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_118">Cientistas</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_67">Empreendedores</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_88">Escritores e Jornalistas</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_68">Filósofos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_37">Políticos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=32_33">Religiosos e Santos</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=1">Ciências Biológicas</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=96">Ciências Exatas e Engenharia</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=2">Ciências Sociais</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=2_76">Antropologia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=2_3">Linguística</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=2_47">Sociologia</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/desenvolvimento-pessoal">Desenvolvimento pessoal</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=63">Dicionários</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=111">Direito</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=87">Economia</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=19">Educação</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/ensino-e-estudo-de-linguas">Ensino e estudo de línguas</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=150">Esportes</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25">Filosofia</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_82">Auto-conhecimento</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_58">Ensaios e Estudos Filosóficos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_79">Epistemologia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_85">Estética</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_72">Ética e Filosofia Moral</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_89">Fenomenologia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_84">Filosofia Antiga</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_107">Filosofia da Ciência</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_80">Filosofia da História</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_128">Filosofia da Linguagem</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_108">Filosofia da Natureza</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_125">Filosofia Jurídica</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_109">Filosofia Medieval</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_46">Filosofia Moderna e Contemporânea</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_113">Filosofia Oriental</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_75">Filosofia Política</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_74">Filósofos Brasileiros</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_110">Gnosiologia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_71">História da Filosofia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_26">Introdução à Filosofia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_92">Lógica e Dialética</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25_78">Metafísica</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=20">História</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=20_69">História da América Latina</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=20_41">História do Brasil</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=20_21">História Geral</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16">Literatura Brasileira</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_17">Contos e Crônicas</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_120">Dicionários e Sermões</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_27">Ensaios e Estudos Literários</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_129">Ficção Científica</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_132">Humor</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_38">Poesia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=16_18">Romance</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13">Literatura Estrangeira</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_44">Contos e Crônicas</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_42">Ensaios e Estudos Literários</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_116">Ficção Científica</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_97">Poesia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_39">Policial</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=13_14">Romance</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=65">Literatura Infanto-Juvenil</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=65_70">Infantil</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=65_66">Juvenil</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=65_104">Monteiro Lobato</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=43">Literatura Portuguesa</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=133">Metodologia de Pesquisa</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=9">Política</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=90">Psicologia</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=90_91">Logoterapia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=90_106">Psicanálise</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=90_105">Psicologia - Geral</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=90_134">Psicologia Analítica</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7">Quadrinhos</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7_98">Asterix</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7_112">Dilbert</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7_8">Hagar</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7_115">Snoopy</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=7_117">Turma da Mônica</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10">Religião - Cristianismo</a>
+                        <ul>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_30">Anjos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_29">Apologética</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_123">Arte Cristã</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_95">Auto-Ajuda</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_55">Bíblias</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_28">Biografias e Testemunhos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_22">Catecismos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_49">Catequeses e Homilias</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_24">Ciência e Bioética</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_34">Demônio e Exorcismo</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_99">Dicionários e Compêndios</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_52">Direção Espiritual</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_121">Direito Canônico</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_122">Documentos - Cartas e Mensagens</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_54">Ensaios e Estudos Religiosos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_11">Espiritualidade</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_59">Família Cristã</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_83">Filosofia Cristã - Escolástica</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_73">Filosofia Cristã - Outras</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_94">Filosofia Cristã - Patrística</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_48">História Cristã</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_56">Introdução ao Cristianismo</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_137">Jesus Cristo</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_36">Jovens e Crianças</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_127">Literatura Cristã</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_62">Liturgia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_15">Maria Santíssima</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_31">Milagres e Aparições</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_61">Moral Cristã</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_12">Novenas</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_23">Sacramentos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_60">Sofrimento</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_35">Temas Controversos</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_57">Teologia</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_119">Turismo Religioso</a>
+                      </li>
+                    <li>
+                        <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=10_53">Virtudes e Vocações</a>
+                      </li>
+                  </ul>
+              </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=86">Religião - Outras</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=136">Revistas</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/cat-turismo">TURISMO</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=473">SAÚDE E FITNESS</a>
+                      </li>
+      	        <li>
+	   
+                <a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=145">OUTROS IDIOMAS</a>
+                      </li>
+          </ul>
+  </div>
+</div>
+  </div>
+ 
+	<div id="column-right">
+    <div class="box">
+	<div class="box-heading">Destaques</div>
+	<div class="box-content">
+		<div id="paging-container">
+			<div class="page_navigation"><a class="previous_link  no_more" href="">Prev</a><span class="ellipse less" style="display: none;">...</span><a class="page_link  first active_page" href="" longdesc="0" style="display: inline-block;">1</a><a class="page_link " href="" longdesc="1" style="display: inline-block;">2</a><a class="page_link " href="" longdesc="2" style="display: inline-block;">3</a><a class="page_link " href="" longdesc="3" style="display: inline-block;">4</a><a class="page_link " href="" longdesc="4" style="display: inline-block;">5</a><a class="page_link  last" href="" longdesc="5" style="display: inline-block;">6</a><span class="ellipse more" style="display: none;">...</span><a class="next_link" href="">Next</a></div>
+			<ul class="content product-list">
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/breviloquio"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5447-142x214.jpg" title="Brevilóquio" alt="Brevilóquio"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/breviloquio">Brevilóquio</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2274">São Boaventura</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 42,53</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5477');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/ideias-e-crencas"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6273-142x214.jpg" title="Idéias e Crenças" alt="Idéias e Crenças"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/ideias-e-crencas">Idéias e Crenças</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1489">José Ortega y Gasset</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 64,90</span> <span class="price-new">R$ 46,08</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6108');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-homem-hello"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/OHomemHello-142x214.jpg" title="O Homem - A Vida, A Ciência e A Arte" alt="O Homem - A Vida, A Ciência e A Arte"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-homem-hello">O Homem - A Vida, A Ciência e A Arte</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=933">Ernest Hello</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 75,00</span> <span class="price-new">R$ 60,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4003');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Ominimo-142x214.jpg" title="O mínimo que você precisa saber para não ser um idiota" alt="O mínimo que você precisa saber para não ser um idiota"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-minimo-que-voce-precisa-saber-para-nao-ser-um-idiota">O mínimo que você precisa saber para não ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 89,90</span> <span class="price-new">R$ 73,72</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('2858');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=725">KITS ESPECIAIS</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/kit-velez-rodriguez"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7579-142x214.jpg" title="KIT - Ricardo Vélez Rodríguez" alt="KIT - Ricardo Vélez Rodríguez"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/kit-velez-rodriguez">KIT - Ricardo Vélez Rodríguez</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=828">Ricardo Vélez Rodríguez</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 142,70</span> <span class="price-new">R$ 95,61</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6939');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-homem-eterno"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/OHomemEterno-142x214.jpg" title="O Homem Eterno" alt="O Homem Eterno"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-homem-eterno">O Homem Eterno</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=159">G. K. Chesterton</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 75,00</span> <span class="price-new">R$ 56,25</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('3654');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/historia-da-educacao-no-renascimento"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6256-142x214.jpg" title="História da Educação no Renascimento" alt="História da Educação no Renascimento"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/historia-da-educacao-no-renascimento">História da Educação no Renascimento</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2254">Ruy Afonso da Costa Nunes</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 65,00</span> <span class="price-new">R$ 46,15</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6051');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-verdadeira-historia-da-inquisicao"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6251-142x214.jpg" title="A verdadeira história da Inquisição" alt="A verdadeira história da Inquisição"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-verdadeira-historia-da-inquisicao">A verdadeira história da Inquisição</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id="></a>, <a href="/index.php?route=product/author&amp;author_id=2489">Rino Camilleri</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 32,72</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6048');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-resposta-catolica"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/ARespostaCatolica-142x214.jpg" title="A Resposta Católica - 3 Edição" alt="A Resposta Católica - 3 Edição"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-resposta-catolica">A Resposta Católica - 3 Edição</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=217">Pe. Paulo Ricardo</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 31,52</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('844');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/origem-e-epilogo-da-filosofia"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5947-142x214.jpg" title="Origem e Epílogo da Filosofia" alt="Origem e Epílogo da Filosofia"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/origem-e-epilogo-da-filosofia">Origem e Epílogo da Filosofia</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1489">José Ortega y Gasset</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 33,89</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5708');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-catolicismo-no-brasil"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5444-142x214.jpg" title="O Catolicismo no Brasil" alt="O Catolicismo no Brasil"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-catolicismo-no-brasil">O Catolicismo no Brasil</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2272">Pe. Julio Maria de Morais Carneiro</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,00</span> <span class="price-new">R$ 30,81</span>
+															</div>
+												<div class="cart"><span class="nwa_list_title">AVISE-ME</span><a onclick="nwaListEvent(event,5472,4);" class="button nwa_list_button_custom"><span>AVISE-ME</span></a></div>
+					</li>
+									<li class="product" style="display: list-item;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-progresso-da-ignorancia"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7584-142x214.jpg" title="O progresso da ignorância - Cartas de um terráqueo ao planeta Brasil - Volume IX " alt="O progresso da ignorância - Cartas de um terráqueo ao planeta Brasil - Volume IX "></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-progresso-da-ignorancia">O progresso da ignorância - Cartas de um ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 45,52</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6944');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-fe-dos-demonios-ou-a-superacao-do-ateismo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5408-142x214.jpg" title="A Fé dos Demônios ou A superação do ateismo" alt="A Fé dos Demônios ou A superação do ateismo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-fe-dos-demonios-ou-a-superacao-do-ateismo">A Fé dos Demônios ou A superação do ateismo ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1470">Fabrice Hadjadj</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 64,90</span> <span class="price-new">R$ 49,97</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5424');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/bento-xvi,-a-igreja-catolica-eo-"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5463-142x214.jpg" title="Bento XVI, A Igreja Católica e  o &quot;Espírito da Modernidade&quot;" alt="Bento XVI, A Igreja Católica e  o &quot;Espírito da Modernidade&quot;"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/bento-xvi,-a-igreja-catolica-eo-">Bento XVI, A Igreja Católica e  o "Espírito ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1867">Rudy Albino de Assunção</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 45,00</span> <span class="price-new">R$ 34,20</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5493');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/catena-aurea---exposicao-continua-sobre-os-evangelhos---vol-1-mateus"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6234-142x214.jpg" title="Catena Aurea - Vol. 1 - Evangelho de São Mateus" alt="Catena Aurea - Vol. 1 - Evangelho de São Mateus"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/catena-aurea---exposicao-continua-sobre-os-evangelhos---vol-1-mateus">Catena Aurea - Vol. 1 - Evangelho de São ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=78">Sto. Tomás de Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 119,90</span> <span class="price-new">R$ 83,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5967');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/imitacao-de-cristo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5406-142x214.jpg" title="Imitação de Cristo" alt="Imitação de Cristo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/imitacao-de-cristo">Imitação de Cristo</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=764">Tomás de Kempis</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 49,12</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5422');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/politizacao-da-biblia"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7288-142x214.jpg" title="Politização da Bíblia - As raízes do Método Histórico-Crítico e a secularização da Escritura (1300-1700)" alt="Politização da Bíblia - As raízes do Método Histórico-Crítico e a secularização da Escritura (1300-1700)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/politizacao-da-biblia">Politização da Bíblia - As raízes do Método ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2372">Benjamim Wiker</a>, <a href="/index.php?route=product/author&amp;author_id=367">Scott Hahn</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 119,90</span> <span class="price-new">R$ 92,32</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6753');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/os-sete-pecados-capitais"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7583-142x214.jpg" title="Os sete pecados capitais: Um guia tomista para derrotar o vício e o pecado" alt="Os sete pecados capitais: Um guia tomista para derrotar o vício e o pecado"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/os-sete-pecados-capitais">Os sete pecados capitais: Um guia tomista ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=3069">Kevin Vost</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 33,46</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6943');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-paixao-de-nosso-senhor-jesus-cristo-73"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5523-142x214.jpg" title="A Paixão de Nosso Senhor Jesus Cristo " alt="A Paixão de Nosso Senhor Jesus Cristo "></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-paixao-de-nosso-senhor-jesus-cristo-73">A Paixão de Nosso Senhor Jesus Cristo </a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=189">S. Afonso de Ligório</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 69,90</span> <span class="price-new">R$ 48,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5549');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-supersticao-do-divorcio"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5527-142x214.jpg" title="A superstição do divórcio" alt="A superstição do divórcio"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-supersticao-do-divorcio">A superstição do divórcio</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=159">G. K. Chesterton</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 33,46</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5553');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=20">História</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/feminismo-perversao-e-subversao"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7659-142x214.jpg" title="Feminismo: perversão e subversão" alt="Feminismo: perversão e subversão"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/feminismo-perversao-e-subversao">Feminismo: perversão e subversão</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=3105">Ana Caroline Campagnolo</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 75,00</span> <span class="price-new">R$ 60,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('7094');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/manual-basico-dos-acolitos-da-missa-tridentina"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5149-142x214.jpg" title="Manual Básico dos Acólitos da Missa Tridentina" alt="Manual Básico dos Acólitos da Missa Tridentina"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/manual-basico-dos-acolitos-da-missa-tridentina">Manual Básico dos Acólitos da Missa Tridentina ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2130">Lucas Vilela Simão</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 37,92</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5194');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/como-as-corporacoes-joel-spring"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7284-142x214.jpg" title="Como as corporações globais querem usar as escolas para moldar o homem para o mercado" alt="Como as corporações globais querem usar as escolas para moldar o homem para o mercado"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/como-as-corporacoes-joel-spring">Como as corporações globais querem usar ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2948">Joel Spring</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 54,90</span> <span class="price-new">R$ 45,02</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6749');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/teologia-da-libertacao-um-salva-vidas-de-chumbo-para-os-pobres"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/TeologiaDaLibertacaoPetrus-142x214.jpg" title="Teologia da Libertação - Um Salva-vidas de Chumbo Para os Pobres" alt="Teologia da Libertação - Um Salva-vidas de Chumbo Para os Pobres"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/teologia-da-libertacao-um-salva-vidas-de-chumbo-para-os-pobres">Teologia da Libertação - Um Salva-vidas ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1911">Julio Loredo de Izcue</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 78,60</span> <span class="price-new">R$ 67,60</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4709');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/salve-santa-rainha"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/SalveSantaRainha-142x214.jpg" title="Salve, Santa Rainha" alt="Salve, Santa Rainha"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/salve-santa-rainha">Salve, Santa Rainha</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=367">Scott Hahn</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 29,00</span> <span class="price-new">R$ 26,39</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('3887');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href=""></a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-metodo-pedagogico-dos-jesuitas"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7655-142x214.jpg" title="O método pedagógico dos jesuítas: O Ratio Studiorum" alt="O método pedagógico dos jesuítas: O Ratio Studiorum"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-metodo-pedagogico-dos-jesuitas">O método pedagógico dos jesuítas: O Ratio ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2255">Pe. Leonel Franca S. J.</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 34,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('7060');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=726">Menos de R$ 10,00</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/ordo-missae-ordinario-da-santa-missa"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/OrdoMissaeOrdinarioDaSantaMissa-142x214.jpg" title="Ordo Missae - Ordinário da Santa Missa" alt="Ordo Missae - Ordinário da Santa Missa"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/ordo-missae-ordinario-da-santa-missa">Ordo Missae - Ordinário da Santa Missa</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=180">S. Pio V</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 11,90</span> <span class="price-new">R$ 9,28</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('3600');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-nova-era-e-a-revolucao-cultural"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/ANovaEraEaRevolucaoCultural-142x214.jpg" title="A Nova Era e a Revolução Cultural: Fritjof Capra &amp; Antonio Gramsci" alt="A Nova Era e a Revolução Cultural: Fritjof Capra &amp; Antonio Gramsci"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-nova-era-e-a-revolucao-cultural">A Nova Era e a Revolução Cultural: Fritjof ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 35,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('3271');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/Apocalipse:_A_historia_de_Padre_Elias"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6266-142x214.jpg" title="Apocalipse: A história de Padre Elias" alt="Apocalipse: A história de Padre Elias"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/Apocalipse:_A_historia_de_Padre_Elias">Apocalipse: A história de Padre Elias</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=922">Michael D. O’Brien</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 79,90</span> <span class="price-new">R$ 59,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6061');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/sobre-a-liberdade"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6212-142x214.jpg" title="Sobre a Liberdade" alt="Sobre a Liberdade"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/sobre-a-liberdade">Sobre a Liberdade</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2457">John Stuart Mill</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 31,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5940');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-guerra-dos-cristeros"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/AGuerraDosCristeiros-142x214.jpg" title="A Guerra dos Cristeros" alt="A Guerra dos Cristeros"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-guerra-dos-cristeros">A Guerra dos Cristeros</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=138">Enrique M. Delgado</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 29,90</span> <span class="price-new">R$ 24,82</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('2786');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/tesouro-da-tradicao-guia-da-missa-tridentina"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/MissaTridentina-142x214.jpg" title="Tesouro da Tradição: Guia da Missa Tridentina" alt="Tesouro da Tradição: Guia da Missa Tridentina"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/tesouro-da-tradicao-guia-da-missa-tridentina">Tesouro da Tradição: Guia da Missa Tridentina ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1417">Lisa Bergman</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 64,90</span> <span class="price-new">R$ 52,57</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4132');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-vida-intelectual-kirion"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7585-142x214.jpg" title="A vida intelectual: Seu espírito, suas condições, seus métodos" alt="A vida intelectual: Seu espírito, suas condições, seus métodos"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-vida-intelectual-kirion">A vida intelectual: Seu espírito, suas condições, ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=247">A. D. Sertillanges</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 34,32</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6945');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/os-martires-de-hoje"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/incoming/lerbem.com.br/image/data/incoming/capaslivros/OsMartiresDeHoje-142x214.png" title="Os Mártires de Hoje" alt="Os Mártires de Hoje"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/os-martires-de-hoje">Os Mártires de Hoje</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=575">Paulo H. de Oliveira</a>, <a href="/index.php?route=product/author&amp;author_id=217">Pe. Paulo Ricardo</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 27,90</span> <span class="price-new">R$ 22,32</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('820');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/musica-inteligencia-e-personalidade"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7581-142x214.jpg" title="Música, inteligência e personalidade (despacho em três dias úteis)" alt="Música, inteligência e personalidade (despacho em três dias úteis)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/musica-inteligencia-e-personalidade">Música, inteligência e personalidade (despacho ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=3068">Dr. Minh Dung Nghiem</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 35,43</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6941');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/A_opcao_beneditina_-_Uma_estrategia_para_cristaos_no_mundo_pos-cristao"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7189-142x214.jpg" title="A opção beneditina - Uma estratégia para cristãos no mundo pós-cristão" alt="A opção beneditina - Uma estratégia para cristãos no mundo pós-cristão"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/A_opcao_beneditina_-_Uma_estrategia_para_cristaos_no_mundo_pos-cristao">A opção beneditina - Uma estratégia para ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2679">Rod Dreher</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 69,90</span> <span class="price-new">R$ 57,32</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6209');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/suma-contra-os-gentios"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/Suma-gentes(2d)-142x214.jpg" title="Suma Contra os Gentios" alt="Suma Contra os Gentios"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/suma-contra-os-gentios">Suma Contra os Gentios</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=78">Sto. Tomás de Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 107,90</span> <span class="price-new">R$ 88,48</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5261');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=725">KITS ESPECIAIS</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/kit---ortega-y-gasset"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/KITS/Ortega Kit 4-142x214.jpg" title="Kit - Ortega y Gasset (4 Livros)" alt="Kit - Ortega y Gasset (4 Livros)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/kit---ortega-y-gasset">Kit - Ortega y Gasset (4 Livros)</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1489">José Ortega y Gasset</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 252,60</span> <span class="price-new">R$ 171,77</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5942');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/teologia-da-libertacao-editora-cleofas"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/TeologiaDaLibertacaoFelipeAquino-142x214.jpg" title="Teologia da Libertação (Felipe Aquino)" alt="Teologia da Libertação (Felipe Aquino)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/teologia-da-libertacao-editora-cleofas">Teologia da Libertação (Felipe Aquino)</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=150">Felipe Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 24,00</span> <span class="price-new">R$ 20,16</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('352');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-imbecil-coletivo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6313-142x214.jpg" title="O imbecil coletivo: Atualidades inculturais brasileiras" alt="O imbecil coletivo: Atualidades inculturais brasileiras"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-imbecil-coletivo">O imbecil coletivo: Atualidades inculturais ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 69,90</span> <span class="price-new">R$ 57,32</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6144');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/suma-teologica-ecclesiae"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/SumaTeologica5Vols-142x214.jpg" title="Suma Teológica Completa (5Vols.) - DESPACHO EM 2 DIAS ÚTEIS" alt="Suma Teológica Completa (5Vols.) - DESPACHO EM 2 DIAS ÚTEIS"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/suma-teologica-ecclesiae">Suma Teológica Completa (5Vols.) - DESPACHO ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1921">Alexandre Correia</a>, <a href="/index.php?route=product/author&amp;author_id=78">Sto. Tomás de Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 649,50</span> <span class="price-new">R$ 513,11</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4750');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-que-ha-de-errado-com-o-mundo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/incoming/lerbem.com.br/image/data/incoming/capaslivros/OQueHaDeErradoComOMundo-142x214.png" title="O Que Há de Errado Com O Mundo" alt="O Que Há de Errado Com O Mundo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-que-ha-de-errado-com-o-mundo">O Que Há de Errado Com O Mundo</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=159">G. K. Chesterton</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 54,90</span> <span class="price-new">R$ 39,53</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('814');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/de-volta-ao-caminho-da-servidao"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7371-142x214.jpg" title="De volta ao caminho da servidão - o ressurgimento do estatismo" alt="De volta ao caminho da servidão - o ressurgimento do estatismo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/de-volta-ao-caminho-da-servidao">De volta ao caminho da servidão - o ressurgimento ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=714">Vários autores</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 40,92</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6836');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/fe-verdade-tolerancia"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/incoming/lerbem.com.br/image/data/incoming/capaslivros/F____Verdade__To_4b8e9c38c4004-142x214.jpg" title="Fé, Verdade, Tolerância: O Cristianismo e as Grandes Religiões do Mundo" alt="Fé, Verdade, Tolerância: O Cristianismo e as Grandes Religiões do Mundo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/fe-verdade-tolerancia">Fé, Verdade, Tolerância: O Cristianismo e ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=123">Bento XVI</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 35,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('1085');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-jardim-das-aflicoes-vide-editorial"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/OJardimDasAflicoesVide-142x214.jpg" title="O Jardim das Aflições (Vide Editorial)" alt="O Jardim das Aflições (Vide Editorial)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-jardim-das-aflicoes-vide-editorial">O Jardim das Aflições (Vide Editorial)</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 69,90</span> <span class="price-new">R$ 49,63</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('3426');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/como-vencer-a-guerra-cultural"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/incoming/lerbem.com.br/image/data/incoming/capaslivros/ComoVencerAGuerraCultural-142x214.jpg" title="Como Vencer a Guerra Cultural" alt="Como Vencer a Guerra Cultural"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/como-vencer-a-guerra-cultural">Como Vencer a Guerra Cultural</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=448">Peter Kreeft</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 30,89</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('835');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-trabalho-intelectual"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5946-142x214.jpg" title="O Trabalho Intelectual - Conselhos para os que estudam e para os que escrevem" alt="O Trabalho Intelectual - Conselhos para os que estudam e para os que escrevem"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-trabalho-intelectual">O Trabalho Intelectual - Conselhos para os ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=49">Jean Guitton</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 29,93</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5710');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-brasil-e-a-nom"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7187-142x214.jpg" title="O Brasil e a Nova Ordem Mundial" alt="O Brasil e a Nova Ordem Mundial"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-brasil-e-a-nom">O Brasil e a Nova Ordem Mundial</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=777">Alexandre Costa</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 34,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6207');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-conquista-do-ocidente---o-projeto-secreto-dos-islamistas"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5462-142x214.jpg" title="A Conquista do Ocidente - O projeto secreto dos Islamistas" alt="A Conquista do Ocidente - O projeto secreto dos Islamistas"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-conquista-do-ocidente---o-projeto-secreto-dos-islamistas">A Conquista do Ocidente - O projeto secreto ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2282">Sylvain Besson</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 46,12</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5491');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-oracao-contemplativa"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7372-142x214.jpg" title="A oração contemplativa" alt="A oração contemplativa"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-oracao-contemplativa">A oração contemplativa</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=181">Thomas Merton</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 45,00</span> <span class="price-new">R$ 36,90</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6837');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=725">KITS ESPECIAIS</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/kit-filosofia-olavo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/KITS/Kit_filosofia_de_Olavo_de_Carvalho(site)-142x214.jpg" title="KIT - Filosofia - Olavo de Carvalho (8 LIVROS)" alt="KIT - Filosofia - Olavo de Carvalho (8 LIVROS)"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/kit-filosofia-olavo">KIT - Filosofia - Olavo de Carvalho (8 LIVROS) ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 427,20</span> <span class="price-new">R$ 277,68</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4265');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/licoes-de-abismo-45"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6265-142x214.jpg" title="Lições de Abismo" alt="Lições de Abismo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/licoes-de-abismo-45">Lições de Abismo</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=292">Gustavo Corção</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 46,72</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6060');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/cientistas-de-batina"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6250-142x214.jpg" title="Cientistas de Batina: De Copérnico, pai do heliocentrismo, a Lemaître, pai do Big Bang" alt="Cientistas de Batina: De Copérnico, pai do heliocentrismo, a Lemaître, pai do Big Bang"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/cientistas-de-batina">Cientistas de Batina: De Copérnico, pai do ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2488">Andrea Bartelloni</a>, <a href="/index.php?route=product/author&amp;author_id=2487">Francesco Agnoli</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 34,75</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6046');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/manual-politicamente-incorreto-do-catolicismo"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7274-142x214.jpg" title="Manual Politicamente Incorreto do Catolicismo" alt="Manual Politicamente Incorreto do Catolicismo"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/manual-politicamente-incorreto-do-catolicismo">Manual Politicamente Incorreto do Catolicismo ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2892">John Zmirak</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 43,13</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6638');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/manual-politicamente-incorreto-do-isla-e-das-cruzadas"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5855-142x214.jpg" title="Manual politicamente incorreto do Islã e das Cruzadas" alt="Manual politicamente incorreto do Islã e das Cruzadas"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/manual-politicamente-incorreto-do-isla-e-das-cruzadas">Manual politicamente incorreto do Islã e ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2331">Robert Spencer</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 44,33</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5566');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/compendio-de-teologia-ascetica-e-mistica-ecclesiae"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/5461-142x214.jpg" title="Compêndio de Teologia Ascética e Mística " alt="Compêndio de Teologia Ascética e Mística "></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/compendio-de-teologia-ascetica-e-mistica-ecclesiae">Compêndio de Teologia Ascética e Mística  ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2281">Adolphe Tanquerey</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 89,90</span> <span class="price-new">R$ 69,22</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5492');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/institutiones"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6233-142x214.jpg" title="Institutiones: Introdução às letras divinas e seculares" alt="Institutiones: Introdução às letras divinas e seculares"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/institutiones">Institutiones: Introdução às letras divinas e ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2468">Cassiodoro</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 55,00</span> <span class="price-new">R$ 41,25</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5966');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-que-voce-precisa-saber-sobre-aborto"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7273-142x214.jpg" title="O que você precisa saber sobre aborto" alt="O que você precisa saber sobre aborto"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-que-voce-precisa-saber-sobre-aborto">O que você precisa saber sobre aborto</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2891">George Mazza</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 36,43</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6637');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/Os_4_temperamentos_na_educacao_dos_filhos"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6369-142x214.jpg" title="Os 4 temperamentos na educação dos filhos" alt="Os 4 temperamentos na educação dos filhos"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/Os_4_temperamentos_na_educacao_dos_filhos">Os 4 temperamentos na educação dos filhos ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2539">Dr. Italo Marsili</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 31,12</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6150');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/comentario-ao-sobre-a-interpretacao-de-aristoteles"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/6232-142x214.jpg" title="Comentário ao Sobre a Interpretação de Aristóteles" alt="Comentário ao Sobre a Interpretação de Aristóteles"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/comentario-ao-sobre-a-interpretacao-de-aristoteles">Comentário ao Sobre a Interpretação de ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=78">Sto. Tomás de Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 44,90</span> <span class="price-new">R$ 33,68</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('5965');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/livre-para-nascer"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7428-142x214.jpg" title="Livre para nascer - O aborto e a lei do embrião humano" alt="Livre para nascer - O aborto e a lei do embrião humano"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/livre-para-nascer">Livre para nascer - O aborto e a lei do embrião ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=3021">André Gonçalves Fernandes</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 49,90</span> <span class="price-new">R$ 40,42</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6890');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/o-futuro-do-pensamento-brasileiro"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/OFuturoDoPensamento-142x214.jpg" title="O Futuro do Pensamento Brasileiro" alt="O Futuro do Pensamento Brasileiro"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/o-futuro-do-pensamento-brasileiro">O Futuro do Pensamento Brasileiro</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1">Olavo de Carvalho</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 59,90</span> <span class="price-new">R$ 43,13</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('4635');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=25">Filosofia</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/meditacoes-do-quixote"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7686-142x214.jpg" title="Meditações do Quixote" alt="Meditações do Quixote"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/meditacoes-do-quixote">Meditações do Quixote</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=1489">José Ortega y Gasset</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 31,92</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('7134');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=723">25-40%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/meditacoes-para-o-advento-e-para-o-natal"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7373-142x214.jpg" title="Meditações para o Advento e para o Natal" alt="Meditações para o Advento e para o Natal"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/meditacoes-para-o-advento-e-para-o-natal">Meditações para o Advento e para o Natal</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=78">Sto. Tomás de Aquino</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 39,90</span> <span class="price-new">R$ 28,33</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6838');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=722">Até 25%</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/a-casa-da-virgem-maria"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7586-142x214.jpg" title="A casa da Virgem Maria: A história miraculosa da trajetória da Casa de Nazaré para uma colina da Itália" alt="A casa da Virgem Maria: A história miraculosa da trajetória da Casa de Nazaré para uma colina da Itália"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/a-casa-da-virgem-maria">A casa da Virgem Maria: A história miraculosa ...</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=3070">Godfrey E. Phillips</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 42,90</span> <span class="price-new">R$ 35,18</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6946');" class="button"><span>Comprar</span></a></div>
+					</li>
+									<li class="product" style="display: none;">
+						<p class="category"><a href="https://livraria.seminariodefilosofia.org/index.php?route=product/category&amp;path=725">KITS ESPECIAIS</a></p>
+													<div class="product-image"><a href="https://livraria.seminariodefilosofia.org/kit-mpis-vide"><img src="https://livraria.seminariodefilosofia.org/image/cache/data/api/produtos/7374-142x214.jpg" title="KIT - Manuais Politicamente Incorretos" alt="KIT - Manuais Politicamente Incorretos"></a></div>
+																		
+												<div class="name">
+							<a href="https://livraria.seminariodefilosofia.org/kit-mpis-vide">KIT - Manuais Politicamente Incorretos</a>
+							<p class="author"><a href="/index.php?route=product/author&amp;author_id=2892">John Zmirak</a>, <a href="/index.php?route=product/author&amp;author_id=2331">Robert Spencer</a>, <a href="/index.php?route=product/author&amp;author_id=2052">Tom Bethell</a></p>
+						</div>
+													<div class="price">
+																	<span class="price-old">R$ 179,70</span> <span class="price-new">R$ 116,81</span>
+															</div>
+												<div class="cart"><a onclick="addToCart('6839');" class="button"><span>Comprar</span></a></div>
+					</li>
+							</ul>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">	
+	$(document).ready(function(){
+		$('#paging-container').pajinate({
+			items_per_page : 12,
+			show_first_last: false
+		});
+	});	
+</script>
+  </div>
+	<div class="float-break"></div>
+	</div>
+<div id="footer">
+	<div id="footer-parte1">
+		<div class="footer-content">
+			<div class="centered-content">
+				<div class="little-man"></div>
+				<div class="column first">
+					<h4>Livraria do Seminário</h4>
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=information/information&amp;information_id=8">Sobre</a>
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=information/contact">Contato</a>
+				</div>
+				<div class="column">
+					<h4>Atendimento ao cliente</h4>
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=information/contact">Dúvidas</a>
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=information/information&amp;information_id=6">Entregas</a>
+					<a href="https://livraria.seminariodefilosofia.org/index.php?route=information/contact">Contato</a>
+				    <a href="/faq">Perguntas frequentes</a>
+				</div>
+				<div class="column"></div>
+				<div class="column pag">
+					<h4>Formas de pagamento</h4>
+					<span class="boleto"></span>
+					<span class="mastercard"></span>
+					<span class="visa"></span>
+					<span class="pagseguro"></span>
+					<span class="diners"></span>
+					<span class="american" style="display:none"></span>
+				</div>
+				<div class="float-break"></div>
+			</div>
+		</div>
+	</div>
+	<div class="float-break"></div>
+	<div id="footer-parte2">
+		<div class="centered-content">
+			<div class="copyright">
+				© Todos os direitos reservados.
+			</div>
+		</div>
+	</div>
+	<div class="float-break"></div>
+</div>
+</div>
+
+<div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxLoadedContent" style="width: 0px; height: 0px; overflow: hidden; float: left;"></div><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><div id="cboxNext" style="float: left;"></div><div id="cboxPrevious" style="float: left;"></div><div id="cboxSlideshow" style="float: left;"></div><div id="cboxClose" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
